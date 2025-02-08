@@ -1,0 +1,67 @@
+# Build and Compilation
+build/
+out/
+cmake-build-*/
+conan-cache/
+
+# Prerequisites and Object files
+*.d
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+
+# Libraries
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+!CMakeLists.txt
+CMakeUserPresets.json
+
+# IDE
+.vs/
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+_ReSharper*
+
+# Temporary and Backup files
+*.bak
+*.swp
+*.swo
+*~
+*.log
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.Trash-*
+$RECYCLE.BIN/
+.TemporaryItems
+ehthumbs.db
+Thumbs.db
